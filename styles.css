@@ -87,9 +87,8 @@ body {
   cursor: pointer;
 }
 
-.btn-primary:active {
+.btn-primary:hover {
   background-color: #d2d2d2;
-  padding: 18px;
 }
 
 .lgw {
@@ -123,9 +122,6 @@ body {
 }
 
 .copyrightText {
-  position: fixed;
-  bottom: 0px;
-  left: 20px;
   color: #1061ff;
 }
 
@@ -135,7 +131,13 @@ body {
 }
 
 p,
-h2 {
+h2,
+a {
   color: white;
   text-align: center;
+}
+
+.footer {
+  background: #1e1e1e;
+  padding: 20px;
 }
