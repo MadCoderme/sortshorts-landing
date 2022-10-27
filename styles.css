@@ -63,6 +63,12 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.image.fade {
+  opacity: 0;
 }
 
 .btn-primary {
@@ -81,15 +87,14 @@ body {
   cursor: pointer;
 }
 
-.btn-primary:active {
+.btn-primary:hover {
   background-color: #d2d2d2;
-  padding: 18px;
 }
 
 .lgw {
-  width: 270px;
-  height: 270px;
-  border-radius: 150px;
+  width: 230px;
+  height: 230px;
+  border-radius: 140px;
   background-color: #d2d2d2;
   position: absolute;
   top: -130px;
@@ -112,14 +117,11 @@ body {
   border-radius: 40px;
   background-color: #fcff7b;
   position: absolute;
-  bottom: 10vh;
+  bottom: 5vh;
   right: 5vw;
 }
 
 .copyrightText {
-  position: fixed;
-  bottom: 0px;
-  left: 20px;
   color: #1061ff;
 }
 
@@ -129,7 +131,13 @@ body {
 }
 
 p,
-h2 {
+h2,
+a {
   color: white;
   text-align: center;
+}
+
+.footer {
+  background: #1e1e1e;
+  padding: 20px;
 }
